@@ -1,0 +1,108 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+	height: 90px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 3px;
+}
+
+#wrapperMargins {
+	overflow: auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 200px;
+	background-color: #D3D3D3;
+}
+
+#links {
+	text-align: right;
+	margin: 0 auto 0 auto;
+	margin-right: 15%;
+	padding: 30px 0px 30px 30px;
+	font-size: 20px;
+}
+
+#content {
+	float: left;
+	margin: 20px 20px 20px 0px;
+	padding: 20px;
+	width: 650px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #dddddd;
+}
+
+#photoMe {
+	margin: 0px 20px 0px 0px;
+}
+
+hr {
+	color: #777777;
+    border-width: 2px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+p {
+	color: #777777;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+#aboutMe {
+	color: #4aaaa5;
+}
+
+img {
+	float:left;
+	padding: 20px;
+}
+
+#name {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px;
+	margin: 0 auto 0 auto;
+	position: absolute;
+	left: 15%;
+	top: 0%;
+}
+
+#links {	
+}
+
+#connect {
+	width: 230px;
+	float: right;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 0px 10px 10px;
+	color: #4aaaa5;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #dddddd;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	padding: 30px;
+	color: white;
+	font-size: 14px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+}
