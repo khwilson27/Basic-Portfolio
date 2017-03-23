@@ -15,7 +15,7 @@ header {
 	overflow: auto;
 	padding-left: 15%;
 	padding-right: 15%;
-	padding-bottom: 200px;
+	padding-bottom: 500px;
 	background: url("../images/roundBackground.png");
 }
 
@@ -40,6 +40,7 @@ header {
 
 #photoMe {
 	margin: 0px 20px 0px 0px;
+	float: left;
 }
 
 hr {
@@ -67,10 +68,10 @@ a {
 	color: #4aaaa5;
 }
 
-img {
+/*img {
 	float:left;
 	padding: 20px;
-}
+}*/
 
 #name {
 	float: left;
@@ -81,9 +82,6 @@ img {
 	position: absolute;
 	left: 15%;
 	top: 0%;
-}
-
-#links {	
 }
 
 #connect {
@@ -99,6 +97,9 @@ img {
 	border-color: #dddddd;
 }
 
+#gitlogo, #linkedinlogo, #stacklogo {
+	padding: 20px;
+}
 footer {
 	position: fixed;
 	bottom: 0;
@@ -111,6 +112,7 @@ footer {
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 10px;
+	z-index: 5;
 }
 
 input {
@@ -126,13 +128,84 @@ input {
 	text-align: center;
 }
 
-.portfolioLabel {
-	float: left;
+.portfolioLabel1 {
 	background-color: #4aaaa5;
 	color: white;
-	position: absolute;
-	bottom: 20px;
-	z-index: 1;
-	width: 270px;
+	width: 230px;
+	padding: 10px 20px 10px 20px;
 	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	top: 325px;
+	margin: 25px;
+}
+
+.portfolioLabel2 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 230px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	top: 325px;
+	margin: 25px;
+	right: 557px;
+}
+
+.portfolioLabel3 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 230px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	top: 575px;
+	margin: 25px;
+}
+
+.portfolioLabel4 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 230px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	top: 575px;
+	margin: 25px;
+	right: 562px;
+}
+
+.portfolioLabel5 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 230px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	z-index: 2;
+	top: 825px;
+	margin: 25px;
+}
+
+#row1, #row2, #row3 {
+}
+
+#portfolioImage1, #portfolioImage2, #portfolioImage3, #portfolioImage4, #portfolioImage5 {
+	padding: 25px;
+}
+
+#portfolioImage1{
+	float: left;
+}
+
+#portfolioImage2{
+	float: right;
 }
